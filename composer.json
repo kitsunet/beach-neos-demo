@@ -29,7 +29,8 @@
         "flowpack/neos-frontendlogin": "~3.0",
         "neos/redirecthandler-neosadapter": "~2.0",
         "neos/redirecthandler-databasestorage": "~2.0",
-        "flownative/google-cloudstorage": "4.*"
+        "flownative/google-cloudstorage": "4.*",
+        "dl/assetsource-mediawiki": "^1.0"
     },
     "require-dev": {
         "neos/buildessentials": "^5.0",

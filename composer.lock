@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "57ea9421c8d1622a046d21b9393fd866",
+    "content-hash": "ffef153dc7b2c8345fdf3c535fde8656",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -49,6 +49,42 @@
                 "transliterator"
             ],
             "time": "2017-04-04T11:38:05+00:00"
+        },
+        {
+            "name": "dl/assetsource-mediawiki",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/daniellienert/assetsource-mediawiki.git",
+                "reference": "fa89bb236849c973d323ee867e9a8e17533b4ff6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/daniellienert/assetsource-mediawiki/zipball/fa89bb236849c973d323ee867e9a8e17533b4ff6",
+                "reference": "fa89bb236849c973d323ee867e9a8e17533b4ff6",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^6.3",
+                "neos/neos": "^4.0"
+            },
+            "type": "neos-package",
+            "extra": {
+                "neos": {
+                    "package-key": "DL.AssetSource.MediaWiki"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DL\\AssetSource\\MediaWiki\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "MediaWiki Asset Source for Neos CMS",
+            "time": "2018-10-25T15:18:14+00:00"
         },
         {
             "name": "doctrine/annotations",
