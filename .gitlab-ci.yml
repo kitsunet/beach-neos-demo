@@ -1,12 +1,12 @@
 include:
-    -   project: 'flownative/infrastructure/build-tools'
-        file: '/gitlab-ci/docker.base.yaml'
-    -   project: 'flownative/infrastructure/build-tools'
-        file: '/gitlab-ci/docker.compile-composer.yaml'
-    -   project: 'flownative/infrastructure/build-tools'
-        file: '/gitlab-ci/docker.build.yaml'
-    -   project: 'flownative/infrastructure/build-tools'
-        file: '/gitlab-ci/docker.release.yaml'
+    - project: 'flownative/infrastructure/build-tools'
+      file: '/gitlab-ci/docker.base.yaml'
+    - project: 'flownative/infrastructure/build-tools'
+      file: '/gitlab-ci/docker.build.yaml'
+    - project: 'flownative/infrastructure/build-tools'
+      file: '/gitlab-ci/docker.release.yaml'
+    - project: 'flownative/infrastructure/build-tools'
+      file: '/gitlab-ci/docker.release-docker-io.yaml'
 
 variables:
     PROJECT_NAME: 'beach-neos-demo'
