@@ -1,22 +1,18 @@
 {
-    "name": "neos/neos-base-distribution",
-    "description": "Neos Base Distribution",
+    "name": "flownative/beach-neos-demo-distribution",
+    "description": "Neos Demo Distribution for Beach",
     "license": "GPL-3.0+",
     "support": {
-        "email": "hello@neos.io",
-        "slack": "http://slack.neos.io/",
-        "forum": "https://discuss.neos.io/",
-        "wiki": "https://discuss.neos.io/c/the-neos-project/project-documentation",
-        "issues": "https://github.com/neos/neos-development-collection/issues",
-        "docs": "http://neos.readthedocs.org/",
-        "source": "https://github.com/neos/neos-base-distribution"
+        "email": "support@flownative.com",
+        "issues": "https://gitlab.com/flownative/docker/neos-demo/issues",
+        "source": "https://gitlab.com/flownative/docker/neos-demo"
     },
     "config": {
         "vendor-dir": "Packages/Libraries",
         "bin-dir": "bin"
     },
     "require": {
-        "neos/neos": "~5.0.0",
+        "neos/neos": "5.0.1",
         "neos/site-kickstarter": "~5.0.0",
 
         "neos/demo": "~6.0",
@@ -26,7 +22,6 @@
         "neos/redirecthandler-neosadapter": "~4.0",
         "neos/redirecthandler-databasestorage": "~4.0",
         "neos/redirecthandler-ui": "~2.0",
-        "doctrine/orm": "2.6.3",
 
         "rokka/imagine-vips": "0.*",
         "flownative/google-cloudstorage": "5.*"
@@ -45,7 +40,7 @@
         }
     },
     "replace": {
-        "neos/neos-base-distribution": "5.0.0"
+        "neos/neos-base-distribution": "5.0.1"
     },
     "suggest": {
         "ext-pdo_sqlite": "For running functional tests out-of-the-box this is required"
