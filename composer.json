@@ -24,7 +24,8 @@
         "neos/redirecthandler-ui": "~2.0",
 
         "rokka/imagine-vips": "0.*",
-        "flownative/google-cloudstorage": "5.*"
+        "flownative/google-cloudstorage": "5.*",
+        "flowpack/fullpagecache": "dev-master"
     },
     "require-dev": {
         "neos/buildessentials": "@dev",
@@ -37,6 +38,10 @@
         "distributionPackages": {
             "type": "path",
             "url": "./DistributionPackages/*"
+        },
+        "fullpageCache": {
+            "type": "vcs",
+            "url": "https://github.com/Flowpack/Flowpack.FullPageCache"
         }
     },
     "replace": {
